@@ -1,0 +1,3 @@
+[submodule "Kryten"]
+	path = Kryten
+	url = https://github.com/jakub-chatrny/Kryten.git
