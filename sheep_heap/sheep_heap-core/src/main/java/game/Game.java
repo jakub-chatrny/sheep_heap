@@ -33,6 +33,7 @@ public class Game extends GameTemplate{
 	private Input input;
 	private Render render;
 	private GMap map;
+	private long actualGOPS;
 
 	private GObjectList objects;
 
@@ -59,12 +60,13 @@ public class Game extends GameTemplate{
 	public void render() {
 		render.map(map);
 		render.objects();
-		render.ui(godModFlag, ui, Time.getTimeString());
+		render.ui(godModFlag, ui, Time.getTimeString(), actualGOPS);
 	}
 
 	// UPDATE
 	public void update(int FPS) {
 		if (FPS == 1) {
+			actualGOPS = Draw.getDrawCounter();
 			Draw.resetDrawCounter();
 			Update.creatures(this);
 			Update.messages(ui.getMessages());

@@ -141,7 +141,7 @@ public class RenderUI {
 				Color.white);
 	}
 	
-	public static void graphicOperationCount(final int count){
+	public static void graphicOperationCount(final long count){
 		final int row = 3;
 		final int padding = 5;
 		final int fontSize = 12;

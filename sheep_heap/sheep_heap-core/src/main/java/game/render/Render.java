@@ -5,8 +5,6 @@ import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
 
-import kryten.engine.Draw;
-
 import org.lwjgl.opengl.Display;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.TrueTypeFont;
@@ -59,10 +57,10 @@ public class Render {
 		RenderMap.coords(this);
 	}
 	
-	public void ui(boolean godModFlag, UserInterface ui, String time){
+	public void ui(boolean godModFlag, UserInterface ui, String time, final long actualGOPS){
 		RenderUI.time(time);
 		RenderUI.position(getRenderPosition());
-		RenderUI.graphicOperationCount(Draw.getDrawCounter());
+		RenderUI.graphicOperationCount(actualGOPS);
 		RenderUI.help(godModFlag, this);
 		RenderUI.messages(ui.getMessages(), this);
 		if(ui.getInfo().getObject() != null){
