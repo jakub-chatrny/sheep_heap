@@ -7,11 +7,11 @@
   </parent>
   <artifactId>sheep_heap-core</artifactId>
   <dependencies>
-  	<dependency>
-  		<groupId>net.chatrny.kryten</groupId>
-  		<artifactId>Kryten</artifactId>
-  		<version>0.7.0</version>
-  	</dependency>
+	<dependency>
+	    <groupId>com.github.jakub-chatrny</groupId>
+	    <artifactId>Kryten</artifactId>
+	    <version>0.7.0-SNAPSHOT</version>
+	</dependency>
   	<dependency>
 		<groupId>org.apache.commons</groupId>
 		<artifactId>commons-io</artifactId>
