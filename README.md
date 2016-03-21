@@ -11,4 +11,19 @@ Some more info about running an app you can find in [Kryten](https://github.com/
     On Linux: -Djava.library.path=lib/native/linux
     On Mac: -Djava.library.path=lib/native/macosx
     On Windows: -Djava.library.path=lib/native/windows
+    
+
+    
+Add the token to $HOME/.m2/settings.xml as the username
+
+<settings>
+  <servers>
+        <server>
+          <id>jitpack.io</id>
+          <username>fedf89b330198b7107b2178fb20a6b78bcfa6903</username>
+          <password>.</password>
+        </server>
+  </servers>
+</settings>
+							
 
