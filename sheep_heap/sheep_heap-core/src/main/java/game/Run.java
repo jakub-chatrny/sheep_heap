@@ -6,7 +6,7 @@ public class Run {
 
 	public static void main(String[] args) {
 		//Global.loadConfig();
-		Engine.init(800, 600);
+		Engine.init();
 		Game game = new Game();
 		Engine.initGame(game);
 		Engine.run();

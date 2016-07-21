@@ -30,7 +30,7 @@
 		<dependency>
 		    <groupId>com.github.jakub-chatrny</groupId>
 		    <artifactId>Kryten</artifactId>
-		    <version>0.7.1</version>
+		    <version>0.7.3b</version>
 		</dependency>
   	</dependencies>
 </project>
