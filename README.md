@@ -15,7 +15,9 @@ Some more info about running an app you can find in [Kryten](https://github.com/
 
     
 development version: 0.7.0
+
 stable version 0.6.2
+
 download: https://www.dropbox.com/s/7fikzs384suphjd/0.6.2.zip?dl=0
 							
 
