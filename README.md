@@ -14,16 +14,8 @@ Some more info about running an app you can find in [Kryten](https://github.com/
     
 
     
-Add the token to $HOME/.m2/settings.xml as the username
-
-<settings>
-  <servers>
-        <server>
-          <id>jitpack.io</id>
-          <username>fedf89b330198b7107b2178fb20a6b78bcfa6903</username>
-          <password>.</password>
-        </server>
-  </servers>
-</settings>
+development version: 0.7.0
+stable version 0.6.2
+download: https://www.dropbox.com/s/7fikzs384suphjd/0.6.2.zip?dl=0
 							
 
