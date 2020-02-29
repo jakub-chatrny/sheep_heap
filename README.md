@@ -1,7 +1,7 @@
-# About Sheep_heep
+# About Sheep_heap
 Sheep flock AI simulation writen in JAVA using OpenGL, LWJGL, Slick and own engine called "Kryten".
 
-![sheep_heap](http://s3.postimg.org/on7n67y3n/sheep_heap.png)
+![sheep_heap](https://i.ibb.co/6N1F0t8/sheep-heap.png)
 
 For running a simulation just run class **game.Run** in project **sheep_heap-core**.
 You also need to set path to native libraries to VM Arguments. 
